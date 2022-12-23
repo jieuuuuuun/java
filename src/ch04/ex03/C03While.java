@@ -4,6 +4,7 @@ public class C03While {
 	public static void main(String[] args) {
 		int calorie = 0;
 		int food = 0;
+		//while은 0회이상 반복할때 쓴다
 		//배고프면 먹는다. 30칼로리 미만이면 배고프다
 		while(calorie < 30) {
 			food = (int)(Math.random() * 10) + 1;
