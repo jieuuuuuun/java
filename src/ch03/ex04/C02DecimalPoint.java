@@ -13,6 +13,6 @@ public class C02DecimalPoint {
 		
 		//과제: pi 값을 반올림해서, 소수점 이하 세자리로 조정하라.
 		shorPi = Math.round(pi * 1000) / 1000.0;
-		System.out.println(shorPi);
+		System.out.println(shorPi);//3.142
 	}
 }

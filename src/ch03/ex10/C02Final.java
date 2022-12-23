@@ -2,13 +2,15 @@ package ch03.ex10;
 
 public class C02Final {
 	public static void main(String[]args) {
-		final int MAX = 3;//final는 변수를 상수로 만들어버린다.
+		final int MAX = 3;//final는 변수를 상수로 만들어버린다.,가독성이 좋아진다.
 		//MAX = 1; 에러
 		
 		double area = 3.14 * 3 * 3;
 		
 		final double PI = 3.14;
 		int r = 3;
-		area = PI * r * r;		
+		area = PI * r * r;	
+		
+		System.out.println(area);
 	}
 }

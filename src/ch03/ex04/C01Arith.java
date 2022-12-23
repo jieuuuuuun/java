@@ -14,7 +14,7 @@ public class C01Arith {
 		System.out.println(c);
 		
 		double d = a / b;
-		System.out.println(d);
+		System.out.println(d);//버그발생
 		
 		//과제: d변수에 1.5가 저장되도록 하라.
 		d = (double)a / b;
@@ -22,7 +22,7 @@ public class C01Arith {
 		d = 1.0 * a / b;
 		System.out.println(d);
 		
-		d = (double)(a / b);//기억 왜곡
+		d = (double)(a / b);//기억 왜곡 bad
 		System.out.println(d);
 		d = a / b * 1.0;
 		System.out.println(d);
