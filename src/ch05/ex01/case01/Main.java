@@ -21,5 +21,5 @@ public class Main {
 		
 		System.out.println(time);
 		System.out.println(time2.toString());//time,time2 객체주소가 서로 다르다. 변수명으로 객체를 구분하면 된다.
-	}//메서드 바디가 끝나면 변수들이 사라진다.
+	}//메서드 바디가 끝나면 변수들이 사라진다. 모든객체는 toString을 다 가지고 있다.
 }

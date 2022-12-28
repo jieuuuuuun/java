@@ -5,7 +5,9 @@ public class C01For {
 		for(int i = 0; i < 10; i++) {
 			System.out.print("*");
 		}
-		for(int i = 0; i < 10; i++)
+		System.out.println();
+		
+		for(int i = 0; i < 10; i++)//개발자는 초기값 0을 많이 사용한다.
 			System.out.print(i + " ");//for하나일 경우 블럭생략가능, 가독성이 더 좋다 더 많이 쓰인다.
 		System.out.println();
 		

@@ -12,11 +12,8 @@ public class Reservation {
 		
 		System.out.println("공연 일자를 입력하세요");		
 		System.out.print("년: "); year = sc.nextInt();
-		//int year = sc.nextInt();
 		System.out.print("월: "); month = sc.nextInt();
-		//int month = sc.nextInt();
-		System.out.print("일: "); day = sc.nextInt();
-		//int day = sc.nextInt();		
+		System.out.print("일: "); day = sc.nextInt();	
 		
 		LocalDate showDate = LocalDate.of(year, month, day);
 		
