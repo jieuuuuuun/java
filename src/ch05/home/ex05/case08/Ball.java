@@ -1,4 +1,4 @@
-package ch05.home.ex08;
+package ch05.home.ex05.case08;
 
 public class Ball {
 
