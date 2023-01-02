@@ -11,7 +11,7 @@ public class Console {
 	
 	private static void inMsg(String msg) {
 		System.out.print(msg + "\n>");
-	}
+	}//내부에서만 호출하기 위해서 private으로 선언하였다.
 	
 	public static String inStr(String msg) {
 		Console.inMsg(msg);

@@ -10,7 +10,7 @@ public class Init {
 		Init.s = 1;
 		//this.i = 1;
 		Console.info("static{}");
-	}
+	}//바이트코드가 로딩 될 때 실행된다., 바이트코드는 딱 한 번만 콜한다.
 	
 	{
 		this.i = 1;

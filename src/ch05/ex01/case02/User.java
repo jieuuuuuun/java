@@ -4,7 +4,7 @@ public class User {
 	String userName;
 	int age;
 }
-/*스테이트가 다름
+/*state(상태)가 다름
 디자인은 하기 나름이다.
 variable은 명사롤 작성한다.
 명사들의 집합이니 class명도 명사로한다.

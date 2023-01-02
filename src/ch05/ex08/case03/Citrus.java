@@ -16,3 +16,4 @@ public class Citrus {
 		this.citrusName = citrusName;
 	}
 }
+//코드 중복을 제거하기위해 this사용한다.

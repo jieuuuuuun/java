@@ -11,5 +11,5 @@ public class Man {
 		this.wash();
 		this.wear(pajamas);
 		this.lie();
-	}//남자는 this변수에 담긴다.
+	}//남자는 this변수에 담긴다. this 생략가능하다.
 }
