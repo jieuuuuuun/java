@@ -6,4 +6,4 @@ public class Duck extends Object{
 		return "오리";
 	}
 }
-//object클래스
+//object클래스 부모를 여러개 주면 유지보수가 힘들기 때문에 안쓰게 되었다.

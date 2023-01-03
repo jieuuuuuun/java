@@ -5,6 +5,7 @@ public class Main {
 		Duck duck = new Duck();
 		Hen hen = new Hen();
 		
-		System.out.printf("%s\n%s",duck, hen.toString());
+		System.out.printf("%s\n%s",duck, hen.toString());//duck.toString 알고리즘상으로 생략됨
 	}
 }
+//duck object를 parameter받고, hen은 string으로 parameter받는다.

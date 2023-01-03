@@ -6,4 +6,4 @@ public class Cat extends Animal {
 		System.out.println("야옹야옹");
 	}
 }
-//
+//override 로 method body를 바꿔치기한다.
