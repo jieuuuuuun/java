@@ -2,9 +2,9 @@ package ch06.home.ex04.case03;
 
 public class Main {
 	public static void main(String[] args) {
-		Point point = new Point(1, 2, 3);
+		Circle circle = new Circle(new Point(1, 2), 3);
 		
-		System.out.println(point);
+		System.out.println(circle);
 	}
 }
 /*
