@@ -2,6 +2,8 @@ package ch05.home.ex06;
 
 import java.util.Scanner;
 
+import ch06.home.ex03.case03.User;
+
 public class Console {
 	private static Scanner sc;
 	
@@ -47,4 +49,6 @@ public class Console {
 	public static void err(String msg) {
 		System.out.println("ERROR]" + msg);
 	}
+
+
 }//입력하다 출력하다만 관심이 있어서 static을 사용하였다.

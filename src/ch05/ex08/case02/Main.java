@@ -10,6 +10,5 @@ public class Main {
 		user2.setUserName("한아름");
 		user2.setAge(35);
 		user2.setRegDate(LocalDate.now());
-		
 	}
 }
