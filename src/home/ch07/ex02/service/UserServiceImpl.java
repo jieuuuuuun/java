@@ -9,6 +9,6 @@ public class UserServiceImpl implements UserService {
 	
 	@Override
 	public User getUser() {
-		return userDao.selectUser();
+		return userDao.selectUser();	
 	}
 }
