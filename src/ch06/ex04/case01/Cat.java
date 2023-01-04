@@ -5,7 +5,7 @@ public class Cat extends Animal{
 	
 	public Cat(String catName, int age) {
 		super(catName);
-		//this.animalName = catName; private 으로 선언되어있기때문이다.
+		//this.animalName = catName; 은 컴파일 에러, private 으로 선언되어있기때문이다.
 		this.age = age;
 	}
 	
