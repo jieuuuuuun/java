@@ -12,6 +12,6 @@ public class Animal {
 	}
 	
 	public int getAge() {
-		return this.age;
+		return this.age;//여기서 this는 Animal타입이다.
 	}
 }

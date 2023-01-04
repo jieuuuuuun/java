@@ -1,5 +1,5 @@
 package ch06.ex04.case03;
-//원은 점이다 로 디자인해서 나쁜코드이다.
+//원은 점이다 로 디자인해서 나쁜코드이다. Circle is a Point
 public class Circle extends Point{
 	private int r;
 	

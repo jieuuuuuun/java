@@ -9,7 +9,7 @@ public class Circle{
 	public Circle(Point point, int r){
 		this.point = point;
 		this.r = r;
-	}
+	}//point 중심점을 파라미터로 받는다.
 	
 	@Override
 	public String toString() {
@@ -17,4 +17,4 @@ public class Circle{
 	}
 	
 }
-//객체는 데이터이다.
+//객체는 데이터이다. point 내 멤버변수이니까 마음데로 쓴다.

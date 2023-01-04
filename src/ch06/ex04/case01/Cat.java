@@ -4,7 +4,7 @@ public class Cat extends Animal{
 	private int age;
 	
 	public Cat(String catName, int age) {
-		super(catName);
+		super(catName);//부모 멤버변수가 먼저 초기화된다. 라는것을 읽을 줄 알아야한다.
 		//this.animalName = catName; 은 컴파일 에러, private 으로 선언되어있기때문이다.
 		this.age = age;
 	}

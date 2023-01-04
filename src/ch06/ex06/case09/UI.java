@@ -5,6 +5,6 @@ public interface UI {
 		return "키보드로 입력하다."	;
 	}
 	
-	String out();
+	String out();//추상메소드이다.
 	
 }
