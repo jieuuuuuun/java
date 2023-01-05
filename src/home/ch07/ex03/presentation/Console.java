@@ -1,4 +1,4 @@
-package ch07.ex03.presentation;
+package home.ch07.ex03.presentation;
 
 import java.util.Scanner;
 

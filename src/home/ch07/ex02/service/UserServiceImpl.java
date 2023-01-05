@@ -1,5 +1,8 @@
 package home.ch07.ex02.service;
 
+import home.ch07.ex02.dao.UserDao;
+import home.ch07.ex02.domain.User;
+
 public class UserServiceImpl implements UserService {
 	private UserDao userDao;
 	
