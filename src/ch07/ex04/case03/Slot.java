@@ -13,6 +13,15 @@ public class Slot {
 	}
 	
 	public Ball chuck() {
-		return balls[(int)(Math.random() * 45)];
+		int i = 0;
+		Ball ball = null;
+		
+		do {
+			i = (int)(Math.random() * 45);
+			ball = balls[i];
+			balls[i] = null;
+		} while(ball == null);
+		
+		return ball;
 	}
 }
