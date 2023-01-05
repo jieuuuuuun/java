@@ -6,7 +6,7 @@ public class Main {
 		car.run();
 		//car.water(); car타입이기 때문에 물을 뿌리지 않는다.
 		
-		FireEngine fireEngine = (FireEngine)car;
+		FireEngine fireEngine = (FireEngine)car;//fireengine 롤 변환
 		fireEngine.water();
 		fireEngine.run();
 		

@@ -11,3 +11,4 @@ public class Shooter {
 		this.gun = gun;
 	}
 }
+// a is a b는 지양하자. a has a b 지향하자

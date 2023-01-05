@@ -11,3 +11,4 @@ public class Clerk {
 		return flower;
 	}
 }
+//리턴타입을 flower로 뒀다.
