@@ -6,7 +6,7 @@ public class Score {
 	private int math;
 	private int sum;
 	private int avg;
-	
+	//로우를 멤버변수로 선언함
 	public Score(int kor, int eng, int math) {
 		this.kor = kor;
 		this.eng = eng;

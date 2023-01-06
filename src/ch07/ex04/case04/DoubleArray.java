@@ -14,11 +14,11 @@ public class DoubleArray {
 		System.out.println("-----------------------------");
 		
 		for(int i = 0; i < scores.length; i++) {
-			int sum = 0;
+			int sum = 0;//각각의 로우 원소값 5
 			
 			System.out.print(" " + (i + 1) + " ");
-			for(int j = 0; j < scores[0].length; j++) {
-				sum += scores[i][j];
+			for(int j = 0; j < scores[0].length; j++) {//원소3값을 얻음
+				sum += scores[i][j];//
 				System.out.printf("%5d", scores[i][j]);
 			}
 			System.out.printf("%5d %4d\n", sum, sum / scores[i].length);

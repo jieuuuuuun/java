@@ -19,7 +19,7 @@ public class Slot {
 		do {
 			i = (int)(Math.random() * 45);
 			ball = balls[i];
-			balls[i] = null;
+			balls[i] = null;//동일수 삭제하기위해 사용
 		} while(ball == null);
 		
 		return ball;
