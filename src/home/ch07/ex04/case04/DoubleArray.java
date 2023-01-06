@@ -1,4 +1,4 @@
-package ch07.ex04.case04;
+package home.ch07.ex04.case04;
 
 public class DoubleArray {
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class DoubleArray {
 		};
 		
 		System.out.println("번호 국어 영어 수학 합계 평균");
-		System.out.println("-----------------------------");
+		System.out.println("-----------------------------");		
 		
 		for(int i = 0; i < scores.length; i++) {
 			int sum = 0;

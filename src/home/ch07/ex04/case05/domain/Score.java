@@ -1,4 +1,4 @@
-package ch07.ex04.case05.domain;
+package home.ch07.ex04.case05.domain;
 
 public class Score {
 	private int kor;
@@ -12,7 +12,7 @@ public class Score {
 		this.eng = eng;
 		this.math = math;
 	}
-	
+
 	public int getKor() {
 		return kor;
 	}
@@ -24,9 +24,9 @@ public class Score {
 	public int getMath() {
 		return math;
 	}
-	
+
 	public int getSum() {
-		return this.sum;
+		return sum;
 	}
 
 	public void setSum(int sum) {
@@ -36,10 +36,10 @@ public class Score {
 	public void setAvg(int avg) {
 		this.avg = avg;
 	}
-
 	@Override
 	public String toString() {
 		return String.format("%5d %5d %5d %4d %4d",
-				kor, eng, math, sum, avg);
+				kor,eng,math,sum,avg);
 	}
+	
 }
