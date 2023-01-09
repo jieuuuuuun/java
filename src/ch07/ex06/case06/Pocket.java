@@ -15,7 +15,7 @@ public class Pocket {
 	}
 	
 	//upper bounded wildcard
-	public double add(List<? extends Number> list) {
+	public double add(List<? extends Number> list) {//<? extends Number> = 상한선 number이하
 		double sum = 0;
 		for(Number n: list) sum += n.doubleValue();
 		
@@ -23,3 +23,4 @@ public class Pocket {
 	}
 }
 //숫자 두개를 더할거야
+//디자인할때 제너릭타입쓴다.

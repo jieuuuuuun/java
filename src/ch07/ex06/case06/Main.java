@@ -19,6 +19,13 @@ public class Main {
 		pocket.printList(list1);
 		pocket.printList(list2);
 		pocket.printList(list3);
-		pocket.printList(list4);		
+		pocket.printList(list4);
+		
+		System.out.printf("%.1f\n%.1f\n%.1f",
+				pocket.add(list1),
+				pocket.add(list2),
+				pocket.add(list3));
+		
+		//pocket.add(list4));타입 불일치
 	}
 }

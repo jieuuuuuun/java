@@ -17,7 +17,7 @@ public class Main {
 			autobot.fight();
 			//autobot.guard();
 			
-			if(autobot instanceof Bumblebee bot) bot.guard();//true면 bot에 들어간다.
+			if(autobot instanceof Bumblebee bot) bot.guard();//true면 bot에 들어간다. 그리고 bot로 선언한다.
 			if(autobot instanceof Prime bot) bot.command();
 		}
 	}

@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		C c = new C();
 		String msg = "";
-		if(c instanceof C) msg += "C ";
+		if(c instanceof C) msg += "C ";//오른쪽은 왼쪽이랑 가족일 가능성있는 클래스만 쓴다.
 		if(c instanceof B) msg += "B ";
 		if(c instanceof A) msg += "A ";
 		if(c instanceof Object) msg += "Object";
