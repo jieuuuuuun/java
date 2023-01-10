@@ -5,3 +5,4 @@ public class Smith {
 		return () -> System.out.println("드르륵.");
 	}
 }
+//gun을 리턴타입으로 쓰고 있다

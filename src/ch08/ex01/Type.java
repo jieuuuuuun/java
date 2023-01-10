@@ -14,38 +14,39 @@ public @interface Type {
 
 @Retention(RetentionPolicy.CLASS)
 @Target(ElementType.FIELD)
-@interface Field{
+@interface Field {
 	int value();
 }
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.CONSTRUCTOR)
-@interface Constructor{
+@interface Constructor {
 	int value() default 0;
 }
 
 @Target(ElementType.METHOD)
-@interface Method{
+@interface Method {
 	
 }
 
 @Target(ElementType.PARAMETER)
-@interface Param{
+@interface Param {
 	
 }
 
 @Target(ElementType.LOCAL_VARIABLE)
-@interface Local{
+@Annotation
+@interface Local {
 	
 }
 
 @Target(ElementType.ANNOTATION_TYPE)
-@interface Annotation{
+@interface Annotation {
 	
 }
 
 @Target({ElementType.TYPE, ElementType.FIELD})
-@interface Universal{
+@interface Universal {
 	
 }
 

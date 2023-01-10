@@ -12,4 +12,4 @@ public interface Human {
 		System.out.println("Human sleep.");
 	}
 }
-//stataic, default 갯수제한 없이 코딩할 수 있다.
+//추상메소드가 아닌 stataic, default 갯수제한 없이 코딩할 수 있다.

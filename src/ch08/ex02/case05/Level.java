@@ -10,7 +10,7 @@ public enum Level {
 		this.value = value;
 		this.next = next;
 	}
-	
+	//레코드 흉내를 내본것이다. 이미유행했음
 	public int value() {
 		return this.value;
 	}
@@ -19,4 +19,4 @@ public enum Level {
 		return this.next;
 	}
 }
-//enum의 생성자는 private으로 만든다.
+//enum의 생성자는 꼭 private으로 만든다. 내부에서 생성하고 끝내야한다.

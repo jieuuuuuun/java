@@ -8,12 +8,12 @@ public class ForEach {
 		List<Integer> list = new ArrayList<>();
 		for(int i = 1; i <= 3; i++) list.add(i);
 		
-		list.forEach(x -> System.out.print(x + " "));
+		list.forEach(x -> System.out.print(x + " "));//주어 원소를 뽑아서 사용한다.
 		System.out.println();
 		
 		//과제: list에서 짝수들만을 출력하라.
 		
-		list.forEach(x ->{ 
+		list.forEach(x -> { 
 			if(x % 2 == 0) System.out.print(x);
 		});
 	}

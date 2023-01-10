@@ -1,7 +1,7 @@
 package ch08.ex03.case02;
 
 import java.time.LocalDate;
-
+//레코드를 일반클래스로 구현해봤다. 그래서 final를 봍여서 구현했다.
 public class Book {
 	private final String title;
 	private final int price;

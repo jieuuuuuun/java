@@ -6,7 +6,7 @@ public class Main {
 		
 		try {
 			if(userId.length() > 3)
-				throw new LengthException("문자 길이가 초과되었습니다.");//throw 는 exception 발생시켜 라는 뜻이다.  
+				throw new LengthException("문자 길이가 초과되었습니다.");//throw 다음은 exception을 준비해야한다. throw는 exception 발생시켜 라는 뜻이다.  
 		} catch(LengthException e) {
 			e.printStackTrace();
 		}

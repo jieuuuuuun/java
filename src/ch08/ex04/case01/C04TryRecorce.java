@@ -24,4 +24,4 @@ public class C04TryRecorce {
 		System.out.println("end");
 	}
 }
-//자식에서 부모를 
+//자식에서 부모순서로 코딩한다.

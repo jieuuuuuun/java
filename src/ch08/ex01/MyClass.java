@@ -1,7 +1,7 @@
 package ch08.ex01;
 
 @Universal
-@Type(name="class", value=1)
+@Type(name="class", value=1)//속성이 2개일경우 생략불가능
 public class MyClass {
 	@Field(1) @Universal
 	private String myName;

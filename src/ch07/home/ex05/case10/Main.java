@@ -4,7 +4,7 @@ public class Main {
 	public void main(String[] args) {
 		Pencil pencil = new Pencil();
 		Eraser eraser = new Eraser();
-		Bag<Stationary> bag = new Bag();
+		Bag<Stationary> bag = new Bag<>();
 		
 		bag.add(pencil);
 		bag.add(eraser);

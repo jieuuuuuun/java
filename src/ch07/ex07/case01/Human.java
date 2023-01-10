@@ -1,6 +1,6 @@
 package ch07.ex07.case01;
 
-@FunctionalInterface
+@FunctionalInterface//람다선언
 public interface Human {
 	void say();
 	//void tell(); FunctinalUnterface에서는 메소드 하나만 쓸 수 있다.

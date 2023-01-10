@@ -13,7 +13,7 @@ public class Main {
 		System.out.println(book == book2);
 		System.out.println(book.equals(book2));
 		
-		System.out.printf("%s %d %s", book.title(), book.price(), book.printedDate());
+		System.out.printf("%s %d %s", book.title(), book.price(), book.printedDate());//get없이 필드네임을 그대로 읽어올 수 있다.
 	}
 }
 //사용하기 편리하다. 단, 필드를 수정하지 않았다는 전제가 있어야한다.
