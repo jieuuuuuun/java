@@ -12,6 +12,6 @@ public class ScoreServiceTest {
 			scores[i] = new Score((i + 1) * 10, (i + 1) * 10,(i + 1) * 10);//테스트용
 		
 		//scoreService.calcScore(scores);
-		//for(Score score: scores) System.out.println(score);
+		for(Score score: scores) System.out.println(score);
 	}
 }

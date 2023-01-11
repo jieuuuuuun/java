@@ -3,7 +3,7 @@ package ch09.ex01;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-//유언 집행자
+//집행자
 public class C02Executor {
 	public static void main(String[] args) {
 		Runnable r1 = () -> {
