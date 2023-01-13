@@ -13,8 +13,8 @@ public class ForEach {
 		
 		//과제: list에서 짝수들만을 출력하라.
 		
-		list.forEach(x -> { 
-			if(x % 2 == 0) System.out.print(x);
-		});
+//		list.forEach(x -> { 
+//			if(x % 2 == 0) System.out.print(x);
+//		});
 	}
 }

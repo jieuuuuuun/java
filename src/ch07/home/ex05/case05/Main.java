@@ -11,8 +11,8 @@ public class Main {
 		for(int i = 0; i < 6; i++)
 			 balls.add(slot.chuck());
 		
-		for(Ball ball: balls)
-			System.out.print(ball);
+		//for(Ball ball: balls)
+			System.out.print(balls);
 	}
 }
 /*
