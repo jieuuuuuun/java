@@ -3,8 +3,8 @@ package ch02.ex02;
 public class C04String {
 	public static void main(String[] args) {
 		String  s = "|" + " a happy ".trim() + "|";//trim 머리와 꼬리 제거
-		s = s.concat(" dog");//주어에 목적어를 붙이는 역할을 한다.
-		s = s.substring(2);//substring 지정한 인덱스 이하의 문자열을 잘라내기한다.
+		//s = s.concat(" dog");//주어에 목적어를 붙이는 역할을 한다.
+		//s = s.substring(2);//substring 지정한 인덱스 이하의 문자열을 잘라내기한다.
 		System.out.println(s);
 		
 		s = "hello";
