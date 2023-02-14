@@ -7,4 +7,4 @@ public enum Job {
 		return values()[ordinal];
 	}
 }
-//valueOf 스트링이 있었으니 valueof(int ordinal)을 오버로딩한것이다.
+//valueOf 스트링이 있었으니 valueOf(int ordinal)을 오버로딩한것이다.

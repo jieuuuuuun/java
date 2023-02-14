@@ -17,7 +17,7 @@ public class C03Try {
 		} catch(IOException e) {
 			System.out.println("IO error.");
 		}finally {
-			if(out != null) out.close();// finally에 있는 것은 꼭 실행한다.
+			if(out != null) out.close();// finally에 있는 것은 꼭 실행한다. 컴퓨터 전원을 끄다.
 		}
 		
 		System.out.println("end.");

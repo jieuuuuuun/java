@@ -1,6 +1,6 @@
 package ch02.ex01;
 
-public class C01Variavle {
+public class C01Variable {
 	public static void main(String[] args) {
 		boolean bl = false; // 변수를 선언했다. declaration-변수를 선언했다.
 		bl = true; // 변수를 할당했다. 변수명은 유일해야한다.
